@@ -1,5 +1,7 @@
-import Dog from './dog';
+// @flow
 
-const toby = new Dog('Toby');
+import Dog from './dog'
 
-console.log(toby.bark());
+const toby = new Dog('Toby')
+
+console.log(toby.bark())
